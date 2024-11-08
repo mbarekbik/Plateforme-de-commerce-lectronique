@@ -33,24 +33,19 @@ Pour exécuter ce projet en local, voici les étapes à suivre :
 2. Installez les dépendances nécessaires pour le frontend :
 
    ```bash
-Copier le code
 npm install
 Lancez le serveur frontend en mode développement :
 
    ```bash
-Copier le code
 npm run dev
 Configuration du Backend :
 Dans un nouveau terminal, allez dans le répertoire backend :
 
    ```bash
-
-Copier le code
 cd Laravel-Vue-SPA-Ecommerce/backend
 Installez les dépendances backend :
 
    ```bash
-Copier le code
 composer install
 npm install
 Configuration de l'environnement :
@@ -60,33 +55,23 @@ Ajoutez le nom de votre base de données dans le fichier .env.
 Générez la clé d'application :
 
    ```bash
-
-Copier le code
 php artisan key:generate
 Créez le lien de stockage :
 
    ```bash
-
-Copier le code
 php artisan storage:link
 Effectuez les migrations et ajoutez les données initiales :
 
    ```bash
-
-Copier le code
 php artisan migrate --seed
 Lancez le serveur backend :
 
    ```bash
-
-Copier le code
 php artisan serve
 Lancer Vite pour le Backend :
 Dans un autre terminal, exécutez :
 
    ```bash
-
-Copier le code
 cd Laravel-Vue-SPA-Ecommerce/backend
 npm run dev
 Accéder à l’Application :
