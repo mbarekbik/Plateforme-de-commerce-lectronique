@@ -1,115 +1,79 @@
-# Laravel-Vue-SPA-Ecommerce:
+Projet E-commerce Laravel Vue SPA
+Un projet de plateforme e-commerce en application monopage (SPA) utilisant Laravel et Vue.js. Ce projet inclut une API REST, plusieurs types d’authentification (admin, éditeur, utilisateur) et un panneau d’administration complet.
 
-SPA Laravel E-commerce project. E-commerce platform with REST Api, Multiple Auth (admin , editor , user) and admin panel integration.
-
-## Features:
-- Authentication and Authorization (Breeze Starter kit)
-- Multiple Authentication (Admin, Editors, Users)
-- Search (Name, Tag, SKU)
-- Reports
-- Chart report
-- Add dynamic product Attributes
-- Coupon
-- Shipping
-- payment gateway
-- Site settings
-- Mobile First Design
+Fonctionnalités
+Authentification et Autorisation avec Breeze Starter Kit
+Gestion Multi-Utilisateurs : rôles d'Administrateur, Éditeur, Utilisateur
+Recherche Avancée par nom, tag, et SKU
+Rapports et Statistiques : incluant des rapports graphiques
+Attributs Produits Dynamiques : ajout et personnalisation d'attributs de produit
+Gestion des Coupons
+Options de Livraison
+Intégration de Passerelle de Paiement
+Paramètres du Site
+Design Mobile-First pour une expérience optimale sur tous les appareils
 
 
-![Dashboard](https://i.ibb.co/zb5z8jw/spa1.png)
+Installation en Local
+Cloner le Projet :
 
-## Run Locally:
+bash
+Copier le code
+git clone https://github.com/DevAmirul/Laravel-Vue-SPA-Ecommerce.git
+Configuration du Frontend :
 
-Clone the project:
+Rendez-vous dans le répertoire frontend :
+bash
+Copier le code
+cd Laravel-Vue-SPA-Ecommerce/frontend
+Installez les dépendances frontend :
+bash
+Copier le code
+npm install
+Lancez le frontend :
+bash
+Copier le code
+npm run dev
+Configuration du Backend :
 
-```bash
-  git clone https://github.com/DevAmirul/Laravel-Vue-SPA-Ecommerce.git
-```
+Dans un nouveau terminal, accédez au répertoire backend :
+bash
+Copier le code
+cd Laravel-Vue-SPA-Ecommerce/backend
+Installez les dépendances backend :
+bash
+Copier le code
+composer install
+npm install
+Configurez le fichier .env :
+Créez le fichier .env en copiant .env.example.
+Définissez le nom de votre base de données et ajoutez-le dans le fichier .env.
+Générez une clé d’application :
+bash
+Copier le code
+php artisan key:generate
+Créez un lien de stockage :
+bash
+Copier le code
+php artisan storage:link
+Effectuez les migrations et ajoutez des données initiales :
+bash
+Copier le code
+php artisan migrate --seed
+Lancez le serveur backend :
+bash
+Copier le code
+php artisan serve
+Configuration de Vite :
 
-Go to the project frontend directory:
+Dans un autre terminal, exécutez :
+bash
+Copier le code
+cd Laravel-Vue-SPA-Ecommerce/backend
+npm run dev
+Accéder à l’Application :
 
-```bash
-  cd Laravel-Vue-SPA-Ecommerce/frontend
-```
-
-Install frontend dependencies:
-
-```bash
-  npm install
-```
-Run frontend:
-
-```bash
-  npm run dev
-```
-
-Go to the project backend directory:
-
-First open new terminal.
-
-```bash
-  cd Laravel-Vue-SPA-Ecommerce/backend
-```
-
-Install dependencies:
-
-```bash
-  composer install
-  npm install
-```
-Create .env file and copy .env.example to .env, create database name and add into .env database name.
-
-Key Generate
-```bash
-  php artisan key:generate
-```
-Storage Link
-```bash
-  php artisan storage:link
-```
-
-Migrate database:
-
-```bash
-  php artisan migrate --seed
-```
-
-Run project:
-
-```bash
-  php artisan serve
-```
-
-Open another terminal for vite:
-
-```bash
-  cd Laravel-Vue-SPA-Ecommerce/backend
-```
-
-```bash
-  npm run dev
-```
-
-Open: http://127.0.0.1:8000
-
-**If you work with order, add stripe key and mail config in .env**
-
-## Screenshots
-
-![Admin Dashboard](https://i.ibb.co/zb5z8jw/spa1.png)
-![Orders Table](https://i.ibb.co/LhMVYzY/spa2.png)
-![Customers Orders Reports](https://i.ibb.co/9WNRVmw/spa3.png)
-![Orders Chart](https://i.ibb.co/phgCVbw/spa7.png)
-![Settings](https://i.ibb.co/vsGPXpN/spa5.png)
-
-
-## Tech Stack
-
-**Client:** Vue.js, Pinia, Axios, Bootstrap, sweetalert2
-
-**Server:** PHP8.2, Laravel10.x, Liveware, Bootstrap
-
-
-## Authors
-
-- [@devamirul](https://www.github.com/devamirul)
+Ouvrez http://127.0.0.1:8000 dans votre navigateur.
+Stack Technique
+Client : Vue.js, Pinia, Axios, Bootstrap, SweetAlert2
+Serveur : PHP 8.2, Laravel 10.x, Livewire, Bootstrap
