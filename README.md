@@ -43,7 +43,4 @@ Configuration du Backend :
 Dans un nouveau terminal, allez dans le répertoire backend :
    ```bash
 cd Laravel-Vue-SPA-Ecommerce/backend
-Configuration du Backend :
-Dans un nouveau terminal, allez dans le répertoire backend :
-   ```bash
-cd Laravel-Vue-SPA-Ecommerce/backend
+
