@@ -35,4 +35,7 @@ Pour exécuter ce projet en local, voici les étapes à suivre :
    ```bash
    npm install
 
+Lancez le serveur frontend en mode développement :
+   ```bash
+npm run dev
 
