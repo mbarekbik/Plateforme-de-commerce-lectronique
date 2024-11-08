@@ -1,79 +1,97 @@
-Projet E-commerce Laravel Vue SPA
-Un projet de plateforme e-commerce en application monopage (SPA) utilisant Laravel et Vue.js. Ce projet inclut une API REST, plusieurs types d’authentification (admin, éditeur, utilisateur) et un panneau d’administration complet.
+# Projet E-commerce SPA avec Laravel et Vue
 
-Fonctionnalités
-Authentification et Autorisation avec Breeze Starter Kit
-Gestion Multi-Utilisateurs : rôles d'Administrateur, Éditeur, Utilisateur
-Recherche Avancée par nom, tag, et SKU
-Rapports et Statistiques : incluant des rapports graphiques
-Attributs Produits Dynamiques : ajout et personnalisation d'attributs de produit
-Gestion des Coupons
-Options de Livraison
-Intégration de Passerelle de Paiement
-Paramètres du Site
-Design Mobile-First pour une expérience optimale sur tous les appareils
+J'ai développé cette plateforme e-commerce sous forme d'application monopage (SPA) en utilisant Laravel pour le backend et Vue.js pour le frontend. Ce projet inclut une API REST, la gestion de plusieurs rôles d'utilisateur, et un panneau d’administration complet, permettant ainsi une gestion fluide et sécurisée de l’e-commerce.
 
+## Fonctionnalités
+- **Authentification et Autorisation** : Mise en place via le kit Breeze Starter pour gérer les accès utilisateurs.
+- **Gestion Multi-Utilisateurs** : Administration, éditeur, et utilisateur, chacun avec des droits spécifiques.
+- **Recherche Avancée** : Les produits peuvent être recherchés par nom, tag, ou SKU pour une navigation plus intuitive.
+- **Rapports et Statistiques** : Intégration de rapports graphiques pour le suivi des performances de la plateforme.
+- **Attributs de Produit Dynamiques** : Possibilité d’ajouter et de personnaliser des attributs spécifiques aux produits.
+- **Gestion des Coupons** : Ajout et gestion de coupons de réduction pour les utilisateurs.
+- **Options de Livraison** : Configuration des frais et modalités de livraison.
+- **Passerelle de Paiement** : Intégration d'une solution de paiement sécurisée.
+- **Paramètres du Site** : Configuration facile et personnalisable des options globales du site.
+- **Design Mobile-First** : Interface pensée en priorité pour les utilisateurs mobiles.
 
-Installation en Local
-Cloner le Projet :
+![Tableau de bord](https://i.ibb.co/zb5z8jw/spa1.png)
 
-bash
-Copier le code
-git clone https://github.com/DevAmirul/Laravel-Vue-SPA-Ecommerce.git
-Configuration du Frontend :
+## Installation en Local
 
-Rendez-vous dans le répertoire frontend :
-bash
-Copier le code
-cd Laravel-Vue-SPA-Ecommerce/frontend
-Installez les dépendances frontend :
-bash
+Pour exécuter ce projet en local, voici les étapes à suivre :
+
+1. **Cloner le Projet :**
+   ```bash
+   git clone https://github.com/mbarekbik/Plateforme-de-commerce-lectronique.git
+# Configuration du Projet
+
+## Configuration du Frontend :
+
+1. Rendez-vous dans le répertoire `frontend` :
+   ```bash
+   cd Laravel-Vue-SPA-Ecommerce/frontend
+2. Installez les dépendances nécessaires pour le frontend :
+
+   ```bash
 Copier le code
 npm install
-Lancez le frontend :
-bash
+Lancez le serveur frontend en mode développement :
+
+   ```bash
 Copier le code
 npm run dev
 Configuration du Backend :
+Dans un nouveau terminal, allez dans le répertoire backend :
 
-Dans un nouveau terminal, accédez au répertoire backend :
-bash
+   ```bash
+
 Copier le code
 cd Laravel-Vue-SPA-Ecommerce/backend
 Installez les dépendances backend :
-bash
+
+   ```bash
 Copier le code
 composer install
 npm install
-Configurez le fichier .env :
-Créez le fichier .env en copiant .env.example.
-Définissez le nom de votre base de données et ajoutez-le dans le fichier .env.
-Générez une clé d’application :
-bash
+Configuration de l'environnement :
+
+Créez un fichier .env en copiant .env.example.
+Ajoutez le nom de votre base de données dans le fichier .env.
+Générez la clé d'application :
+
+   ```bash
+
 Copier le code
 php artisan key:generate
-Créez un lien de stockage :
-bash
+Créez le lien de stockage :
+
+   ```bash
+
 Copier le code
 php artisan storage:link
-Effectuez les migrations et ajoutez des données initiales :
-bash
+Effectuez les migrations et ajoutez les données initiales :
+
+   ```bash
+
 Copier le code
 php artisan migrate --seed
 Lancez le serveur backend :
-bash
+
+   ```bash
+
 Copier le code
 php artisan serve
-Configuration de Vite :
-
+Lancer Vite pour le Backend :
 Dans un autre terminal, exécutez :
-bash
+
+   ```bash
+
 Copier le code
 cd Laravel-Vue-SPA-Ecommerce/backend
 npm run dev
 Accéder à l’Application :
+Ouvrez votre navigateur et allez sur http://127.0.0.1:8000.
 
-Ouvrez http://127.0.0.1:8000 dans votre navigateur.
 Stack Technique
 Client : Vue.js, Pinia, Axios, Bootstrap, SweetAlert2
 Serveur : PHP 8.2, Laravel 10.x, Livewire, Bootstrap
