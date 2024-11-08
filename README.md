@@ -48,6 +48,7 @@ Installez les dépendances backend :
    ```bash
 composer install
 npm install
+
 Configuration de l'environnement :
 
 Créez un fichier .env en copiant .env.example.
