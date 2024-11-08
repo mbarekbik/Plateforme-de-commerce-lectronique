@@ -32,10 +32,10 @@ Pour exécuter ce projet en local, voici les étapes à suivre :
    cd Laravel-Vue-SPA-Ecommerce/frontend
    
 2. Installez les dépendances nécessaires pour le frontend :
-
-Lancez le serveur frontend en mode développement :
    ```bash
-npm run dev
+   npm install
+Lancez le serveur frontend en mode développement :
+
 
 Configuration du Backend :
 Dans un nouveau terminal, allez dans le répertoire backend :
