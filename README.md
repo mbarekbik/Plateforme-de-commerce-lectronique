@@ -30,14 +30,17 @@ Pour exécuter ce projet en local, voici les étapes à suivre :
 1. Rendez-vous dans le répertoire `frontend` :
    ```bash
    cd Laravel-Vue-SPA-Ecommerce/frontend
+   
 2. Installez les dépendances nécessaires pour le frontend :
 
    ```bash
 npm install
+
 Lancez le serveur frontend en mode développement :
 
    ```bash
 npm run dev
+
 Configuration du Backend :
 Dans un nouveau terminal, allez dans le répertoire backend :
 
@@ -76,6 +79,12 @@ cd Laravel-Vue-SPA-Ecommerce/backend
 npm run dev
 Accéder à l’Application :
 Ouvrez votre navigateur et allez sur http://127.0.0.1:8000.
+
+![Admin Dashboard](https://i.ibb.co/zb5z8jw/spa1.png)
+![Orders Table](https://i.ibb.co/LhMVYzY/spa2.png)
+![Customers Orders Reports](https://i.ibb.co/9WNRVmw/spa3.png)
+![Orders Chart](https://i.ibb.co/phgCVbw/spa7.png)
+![Settings](https://i.ibb.co/vsGPXpN/spa5.png)
 
 Stack Technique
 Client : Vue.js, Pinia, Axios, Bootstrap, SweetAlert2
