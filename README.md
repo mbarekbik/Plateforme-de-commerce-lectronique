@@ -33,7 +33,7 @@ Pour exécuter ce projet en local, voici les étapes à suivre :
    
 2. Installez les dépendances nécessaires pour le frontend :
    ```bash
-npm install
+    npm install
 
 Lancez le serveur frontend en mode développement :
    ```bash
