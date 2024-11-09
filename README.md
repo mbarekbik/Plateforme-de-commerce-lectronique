@@ -62,18 +62,22 @@ Générez la clé d'application :
 
    ```bash
 php artisan key:generate
+```
 Créez le lien de stockage :
 
    ```bash
 php artisan storage:link
+```
 Effectuez les migrations et ajoutez les données initiales :
 
    ```bash
 php artisan migrate --seed
+```
 Lancez le serveur backend :
 
    ```bash
 php artisan serve
+```
 Lancer Vite pour le Backend :
 Dans un autre terminal, exécutez :
 
