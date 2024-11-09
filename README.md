@@ -38,22 +38,22 @@ Pour exécuter ce projet en local, voici les étapes à suivre :
 **Lancez le serveur frontend en mode développement :**
    ```bash
 npm run dev
-
+```
 **Configuration du Backend :**
 Dans un nouveau terminal, allez dans le répertoire backend :
    ```bash
 cd Laravel-Vue-SPA-Ecommerce/backend
-
+```
 **Configuration du Backend :**
 Dans un nouveau terminal, allez dans le répertoire backend :
    ```bash
 cd Laravel-Vue-SPA-Ecommerce/backend
-
+```
 **Installez les dépendances backend :**
    ```bash
 composer install
 npm install
-
+```
 **Configuration de l'environnement :**
 
 Créez un fichier .env en copiant .env.example.
@@ -80,6 +80,7 @@ Dans un autre terminal, exécutez :
    ```bash
 cd Laravel-Vue-SPA-Ecommerce/backend
 npm run dev
+```
 Accéder à l’Application :
 Ouvrez votre navigateur et allez sur http://127.0.0.1:8000.
 
